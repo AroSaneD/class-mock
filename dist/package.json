@@ -2,7 +2,7 @@
     "name": "class-mock",
     "version": "0.0.1",
     "description": "This library exports a utility to mock all methods of a given class.",
-    "main": "dist/index.js",
+    "main": "index.js",
     "scripts": {
         "build": "rimraf dist && tsc && cpx package.json dist",
         "test": "jest"

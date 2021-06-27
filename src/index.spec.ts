@@ -1,4 +1,4 @@
-import { mock } from ".";
+import { mock } from "./index";
 
 describe("Concrete classes", () => {
     class ExampleConcreteClass {

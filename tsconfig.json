@@ -1,8 +1,17 @@
 {
     "compilerOptions": {
-        "module": "commonjs"
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "strictBindCallApply": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "target": "ESNext",
+        "outDir": "dist",
+        "declaration": true
     },
     "exclude": [
-        "node_modules"
+        "node_modules", "src/*.spec.ts"
     ]
 }
